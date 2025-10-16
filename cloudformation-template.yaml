@@ -71,7 +71,7 @@ Resources:
       Role: !GetAtt LambdaExecutionRole.Arn
       Environment:
         Variables:
-          SES_FROM_EMAIL: 'juansebas1307@gmail.com'
+          SES_FROM_EMAIL: 'simoncorrea2304@gmail.com'
       Code:
         ZipFile: |
           const { SESClient, SendEmailCommand } = require('@aws-sdk/client-ses');
